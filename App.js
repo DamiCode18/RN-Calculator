@@ -1,6 +1,6 @@
 import { useState} from "react";
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, View, Switch } from 'react-native';
+import { StyleSheet, View, Switch, Platform } from 'react-native';
 import constants from 'expo-constants';
 import Calculator from './screens/Calculator';
 import {ThemeContext} from './src/context/ThemeContext';
@@ -29,7 +29,6 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     marginTop: constants.statusBarHeight,
     alignItems: 'center',
-    paddingTop: 10
   },
   text: {
     color: '#fff',
