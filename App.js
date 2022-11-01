@@ -28,6 +28,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#fff',
     marginTop: constants.statusBarHeight,
+    paddingTop: 10,
     alignItems: 'center',
   },
   text: {
